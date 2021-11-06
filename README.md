@@ -1,8 +1,10 @@
 # OC-PROJET-USER-INTERFACE-ON-WEB-APPLICATION-
 
-### Openclassroom projet 06
+### Projet 06
 
-Projet consistant à créer une page HTML pour l'association JustStreamIt. Cette association est connue pour répertorier et classer des films suivant différentes informations et catégories.
+Projet consistant à créer une page HTML pour l'association JustStreamIt. 
+
+Cette association est connue pour répertorier et classer des films suivant différentes informations et catégories.
 
 La page souhaitée par l'association affiche les catégories de films dans des caroussels, à la manière du site "Netlix". 
 
