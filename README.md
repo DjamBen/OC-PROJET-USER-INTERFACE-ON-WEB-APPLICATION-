@@ -1,4 +1,4 @@
-# Projet front-end Juststreamit,  HTML - CSS - javascript
+# OC-PROJET-USER-INTERFACE-ON-WEB-APPLICATION-
 
 ### Openclassroom projet 06
 
