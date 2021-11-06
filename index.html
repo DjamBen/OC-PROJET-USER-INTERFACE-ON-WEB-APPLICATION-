@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Projet VI</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <script src="wind.js" async></script>
+        <div id="block_page">
+            <header>
+                <div id="titre_principal">
+                    <div id="logo">
+                        <img src="images/c1.PNG"
+                        alt="Logo du site" />
+                    </div>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Catégories</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section>
+                
+                <div id="bestMovieBlock">
+                    <section id="bestMovie">
+                    <h2>Meilleur Film</h2>
+                        <p id="bestMovie__image"></p>
+                        <p id="bestMovie__contents"></p>
+                    </section>  
+                    <button class="btn btn__openModal">En Savoir Plus</button>
+                </div>
+                
+                <!-- Nos catégories avec les balises permettant de gérer : Preview / Modal / Boutton du Caroussel-->
+                
+                <h1>Meilleurs Films</h1>
+                <div id="caroussel__BM" class="caroussel">
+                    <button class="btn arrow__left">⇦</button>
+                        <div id="gallery__BM" class="galery">
+                            <ul class="images__BM"></ul>
+                        </div>
+                    <button class="btn arrow__right">⇨</button>
+                </div>
+    
+                <h1>Films d'actions :</h1>
+                <div id="caroussel__AM" class="caroussel">
+                    <button class="btn arrow__left">⇦</button>
+                        <div id="gallery__AM" class="galery">
+                            <ul class="images__AM"></ul>
+                        </div>
+                    <button class="btn arrow__right">⇨</button>
+                </div>
+    
+                <h1>Films Thriller :</h1>
+                <div id="caroussel__T" class="caroussel">
+                    <button class="btn arrow__left">⇦</button>
+                        <div id="gallery__T" class="galery">
+                            <ul class="images__T"></ul>
+                        </div>
+                    <button class="btn arrow__right">⇨</button>
+                </div>
+                
+                <h1>Films Horreur :</h1>
+                <div id="caroussel__H" class="caroussel">
+                    <button class="btn arrow__left">⇦</button>
+                        <div id="gallery__H" class="galery">
+                            <ul class="images__H"></ul>
+                        </div>
+                    <button class="btn arrow__right">⇨</button>
+                </div>
+            
+                <!-- fenêtre modale -->
+                <div id="myModal" class="modal">
+                    <div class="modal__content">
+                        <span class="close">&times;</span>
+                        <div class="modal__img"></div>
+                        <h1>Informations</h1>
+                        <ul class="modal__contents"></ul>
+                    </div>
+                </div>
+            </section>
+    </body>
+</html>
