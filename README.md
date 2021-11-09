@@ -4,15 +4,6 @@
 
 Projet consistant à créer une page HTML pour l'association JustStreamIt. 
 
-Cette association est connue pour répertorier et classer des films suivant différentes informations et catégories.
-
-La page souhaitée par l'association affiche les catégories de films dans des caroussels, à la manière du site "Netlix". 
-
-L'interface doit comprendre les zones suivantes :
- - Un bloc "Meilleur film, affichant la jaquette du film, le résumé, ainsi qu'un bouton permettant d'afficher les différentes informations.
- - Un bloc "Films les mieux notés", affichant les jaquettes des 7 meilleurs films toutes catégories confondues. Des boutons doivent permettre de faire défiler les films de gauche à droite, et chaque clic sur une jaquette doit afficher les informations du film dans une fenêtre.
- - 3 autres blocs suivant le schéma du bloc "Films les mieux notés", les catégories etant au choix du développeur.
-
 Le projet utilise les languages HTML, CSS et Javascript. La page se connecte à une API afin de récupérer les différentes informations.
 
 Le site fonctionne sur les navigateurs les plus utilisés actuellement (Chrome, Firefox, Edge).
